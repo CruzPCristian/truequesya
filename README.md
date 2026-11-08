@@ -79,4 +79,4 @@ Mensajes de commit: Conventional Commits en español, con el formato `tipo(alcan
 
 ## Autor
 
-Cristian — Aprendiz SENA, ADSO.
+Cristian Cruz — Aprendiz SENA, ADSO, ficha 3336056.
