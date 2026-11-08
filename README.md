@@ -44,7 +44,7 @@ truequesya/
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/USUARIO/truequesya.git
+   git clone https://github.com/CruzPCristian/truequesya.git
    cd truequesya
    ```
 
@@ -71,11 +71,11 @@ truequesya/
 
 ## Flujo de trabajo con Git
 
-- `main`: versión estable, lista para entregar.
-- `develop`: integración del trabajo en curso.
-- `feature/nombre-de-la-funcionalidad`: una rama por cada funcionalidad nueva.
+- `main`: versión estable, solo lo que se entrega.
+- `develop`: integración, aquí se juntan las tareas terminadas (solo por pull request).
+- `feature/TY-NN-nombre`, `fix/TY-NN-nombre`, `docs/TY-NN-nombre`: una rama por tarea; se integran a `develop` por pull request.
 
-Mensajes de commit: `tipo: descripción corta` (por ejemplo `feat: agrega pantalla de ofertas recibidas`, `fix: corrige validación del registro`, `docs: actualiza el README`).
+Mensajes de commit: Conventional Commits en español, con el formato `tipo(alcance): descripción corta`. Ejemplo: `feat(ofertas): aceptar oferta y crear el trueque`.
 
 ## Autor
 
