@@ -28,7 +28,6 @@ TruequesYa permite:
 truequesya/
 ├── frontend/      # Aplicación React
 ├── backend/       # API en Node.js
-├── database/      # Scripts SQL (estructura y datos de prueba)
 ├── .gitignore
 └── README.md
 ```
@@ -58,16 +57,9 @@ truequesya/
 
    La aplicación queda disponible en http://localhost:5173
 
-3. Base de datos: abrir MySQL y ejecutar el script de la carpeta `database/` para crear la base `truequesya` con sus 6 tablas (Usuario, Producto, Publicacion, Mensaje, Trueque, Notificacion).
+3. Base de datos: el modelo es el v6 (base `truequesya`, 6 tablas: Usuario, Producto, Publicacion, Mensaje, Trueque y Notificacion). El script SQL se agregará dentro de `backend/` como migración (tarea TY-05 del tablero).
 
-4. Backend (en construcción):
-
-   ```bash
-   cd backend
-   npm install
-   ```
-
-   Copiar `.env.example` a `.env` y completar los datos de conexión a la base de datos.
+4. Backend (en construcción): la carpeta `backend/` todavía no tiene código. La API con Express y MySQL se crea en la tarea TY-06 del tablero.
 
 ## Flujo de trabajo con Git
 
