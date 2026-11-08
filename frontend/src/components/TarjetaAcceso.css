@@ -1,0 +1,27 @@
+.tarjeta-acceso {
+  display: block;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #2e7d32;
+  text-decoration: none;
+  color: #222;
+}
+
+.tarjeta-acceso h2 {
+  margin: 0 0 8px;
+  color: #2e7d32;
+}
+
+.tarjeta-acceso p {
+  margin: 0;
+}
+
+.tarjeta-acceso:hover {
+  background: var(--fondo-claro);
+}
+
+.tarjeta-acceso:focus-visible {
+  outline: 3px solid #1b5e20;
+  outline-offset: 2px;
+}

@@ -1,0 +1,43 @@
+.encabezado {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 20px;
+  background: var(--fondo-gris);
+  color: #fff;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.encabezado nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.encabezado a {
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 2px;
+}
+
+.encabezado a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+.encabezado a:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+.encabezado a.cerrar-sesion {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 4px 12px;
+}

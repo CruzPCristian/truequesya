@@ -1,0 +1,42 @@
+.tarjeta-producto {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tarjeta-producto h2 {
+  margin: 0;
+  color: #2e7d32;
+}
+
+.tarjeta-producto p {
+  margin: 0;
+}
+
+.tarjeta-producto .meta {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.boton-enlace {
+  margin-top: 8px;
+  align-self: flex-start;
+  background: var(--fondo-principal);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.boton-enlace:hover {
+  background: var(--fondo-oscuro);
+}
+
+.boton-enlace:focus-visible {
+  outline: 3px solid #1b5e20;
+  outline-offset: 2px;
+}
